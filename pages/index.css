@@ -1,0 +1,6 @@
+@import url(../vendor/normalize.css);
+@font-face {
+    src: url(../Inter/Inter\ Hinted\ for\ Windows/);
+    font-family: 'Inter';
+    font-style: regular;
+}
