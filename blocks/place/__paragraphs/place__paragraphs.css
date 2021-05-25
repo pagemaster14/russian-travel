@@ -1,0 +1,9 @@
+.place__paragraphs {
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .place__paragraphs {
+        grid-area: place__paragraphs;
+    }
+}
