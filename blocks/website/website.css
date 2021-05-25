@@ -1,9 +1,9 @@
-.place__website {
+.website {
     margin: 32px 16px 0;
 }
 
 @media screen and (min-width: 768px) {
-    .place__website {
+    .website {
         grid-area: place__website;
         margin: 0;
         align-self: end;
