@@ -6,7 +6,7 @@
     .photo-grid {
         margin: 88px 24px 0;
         display: grid;
-        grid-template-columns: 352px 352px;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: repeat(5, 264px);
         gap: 16px;
     }
@@ -15,7 +15,7 @@
 @media screen and (min-width: 1024px) {
     .photo-grid {
         margin: 92px 48px 0;
-        grid-template-columns: repeat(3, 300px);
+        grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 225px);
         gap: 14px;
     }
@@ -23,7 +23,7 @@
 
 @media screen and (min-width: 1280px) {
     .photo-grid {
-        grid-template-columns: repeat(4, 284px);
+        grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3, 213px);
         gap: 16px;
     }

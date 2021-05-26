@@ -5,7 +5,7 @@
 @media screen and (min-width: 768px) {
     .place {
         display: grid;
-        grid-template-columns: 340px 352px;
+        grid-template-columns: 340px 1fr;
         grid-template-rows: 46px 340px;
         grid-template-areas: "place__title place__website" "place__image place__paragraphs" "place__image place__paragraphs";
         gap: 48px 28px;
@@ -17,7 +17,7 @@
 
 @media screen and (min-width: 1024px) {
     .place {
-        grid-template-columns: 440px 456px;
+        grid-template-columns: 440px 1fr;
         grid-template-rows: 152px 440px;
         gap: 48px 32px;
     }
@@ -34,7 +34,7 @@
 
 @media screen and (min-width: 1280px) {
     .place {
-        grid-template-columns: 460px 460px;
+        grid-template-columns: 460px 1fr;
         grid-template-rows: 152px 460px;
         gap: 48px 40px;
     }

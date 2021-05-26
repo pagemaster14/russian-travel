@@ -1,12 +1,15 @@
 .footer {
+    min-height: 310px;
     margin: 64px 16px 0;
     padding-bottom: 24px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 @media screen and (min-width: 768px) {
     .footer {
+        min-height: 18px;
         margin: 88px 24px 0;
         flex-direction: row;
     }
