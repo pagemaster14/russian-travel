@@ -1,3 +1,22 @@
 .cover__link {
     text-decoration-line: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover__link::before {
+    background-color: #2A2C2F;
+    opacity: 0.3;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.cover__link:hover::before {
+    opacity: 0.8;
 }
