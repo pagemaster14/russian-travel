@@ -6,36 +6,30 @@
     .place {
         display: grid;
         grid-template-columns: 340px 1fr;
-        grid-template-rows: 46px 340px;
         grid-template-areas: "place__title place__website" "place__image place__paragraphs" "place__image place__paragraphs";
         gap: 48px 28px;
     }
     .place:not(:first-child) {
-        margin-top: 0;
+        margin-top: 73px;
+    }
+    .place:last-child {
+        margin-top: 72px;
     }
 }
 
 @media screen and (min-width: 1024px) {
     .place {
         grid-template-columns: 440px 1fr;
-        grid-template-rows: 152px 440px;
         gap: 48px 32px;
     }
-    .place:nth-of-type(2) {
-        grid-template-rows: 76px 440px;
-    }
-    .place:nth-of-type(3) {
-        grid-template-rows: 76px 440px;
-    }
-    .place:nth-of-type(5) {
-        grid-template-rows: 76px 440px;
+    .place:not(:first-child) {
+        margin-top: 80px;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .place {
         grid-template-columns: 460px 1fr;
-        grid-template-rows: 152px 460px;
         gap: 48px 40px;
     }
 }

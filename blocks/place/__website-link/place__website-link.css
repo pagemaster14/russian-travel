@@ -1,4 +1,4 @@
-.website__link {
+.place__website-link {
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
@@ -7,6 +7,6 @@
     transition: opacity .5s ease 0.5s;
 }
 
-.website__link:hover {
+.place__website-link:hover {
     opacity: 0.8;
 }
